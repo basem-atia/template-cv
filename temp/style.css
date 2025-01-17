@@ -1,0 +1,32 @@
+footer {
+  background-color: #009688;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  height: 25vh;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 90%;
+}
+footer p {
+  background-color: #009688;
+}
+footer .icons {
+  font-size: 24px;
+  padding: 10px;
+}
+.box-shadow {
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer .icons i:hover {
+  color: #616161;
+}
+footer .icons i {
+  margin-right: 5px;
+}
